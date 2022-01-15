@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Rubik&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <script src="http://kit.fontawesome.com/c26cd2166c.js"></script>
+    <title>Hantakali</title>
+  </head>
+  <body>
+    
+    
+
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+          <a class="navbar-brand" href="#">Hantakali</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav m-auto my-2 my-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="menulists.html">Menu List</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutus.html">About Us</a>                
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="helpcenter.html" >FAQs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html" >Account</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="px-2 search" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn0" type="submit">Search</button>
+            </form>
+            <!--<a onclick="changeFont('decrease')" title="Decrease Font Size">Font- </a>
+    <a onclick="changeFont('original')" title="Original Font Size">Font  </a>
+    <a onclick="changeFont('increase')" title="Increase Font Size">A+ </a>-->
+          </div>
+        </div>
+      </nav>
+
+      <section class="main">
+          <div class="container py-5" style="text-align:right">
+            <h1 class="pt-5" style="margin-top:100px;"> Bhok Lagyoo?<br>Hami cham ni</h1>
+          </div>
+      </section>
+      <div class="container">
+        <ol class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="porductpage.html">All Items</a></li>
+            <li class="active">Food details</li>        
+          </ol>
+        <div class="card">
+            <!-- <div id="food">
+                <i class="fas fa-cart-plus"><sup id="items-added"></sup></i>
+            </div> -->
+            <div class="images">
+                <h2>Cheese Pizza</h2>
+                <div class="slider"><img id="big-image" src="./website/pizza.jfif" alt=""></div>
+                <div id="img-slider" class="img-slider">
+                    <div class="imgs"><img id="pizza" src="website/pizza.jfif" alt=""></div>
+                   </div>
+            </div>
+            <div class="infos">
+                <h1>Cheese pizza</h1>
+                <div class="reviews">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">
+                    <h3>RS.200</h3>
+                </div>
+                <div id="more-infos">
+                    <h5 class="choose">Description</h5>
+                    <h5 class="choose">Ingridient</h5>
+                    <h5 class="choose">Restaurant</h5>
+                </div>
+                <div id="info-content">
+                    <p  class="paragraph" style="display: block;">Treat your stomatch with our mesmorizing cheese pizza</p>
+                    <p class="paragraph" style="display: none;">Qaulity sliced meat <br> Quality Cheese<br> dilicious topping  </p>
+                    <p class="paragraph" style="display: none;">The Pizza Hut<br>Durbar Marg</p>
+                </div>
+                <div class="quantity">
+                    <h3>QUANTITY</h3>
+                <input type="number" name="items" id="counter" min="1" value="1">
+            </div>
+                <div class="buttons">
+                    <button id="add-to-cart"><i class="fas fa-shopping-cart"></i><a href="addtocart.html">ADD TO CART</a></button>
+                    <a href="checkout1.html"><button>EAT NOW</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html> 
